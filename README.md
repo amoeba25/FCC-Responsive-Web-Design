@@ -4,22 +4,22 @@ These are the list of projects done by me for the FreeCodeCamp's resoponsive web
 
 ## Projects
 
-1. Tribute page <br>
+**1. Tribute page** <br>
 A short tribute page dedicated to the late legend Vera Rubin 
-**working link** - https://amoeba25.github.io/FCC-Responsive-Web-Design/Tribute-page/
+[working link](https://amoeba25.github.io/FCC-Responsive-Web-Design/Tribute-page/)
 
-2. Survey form
+**2. Survey form** <br>
 The project based on a short quiz of one of my favourite shows- Parks and Recreation
-**working link** - https://amoeba25.github.io/FCC-Responsive-Web-Design/Survey-form/
+[working link](https://amoeba25.github.io/FCC-Responsive-Web-Design/Survey-form/)
 
-3. Product landing page
+**3. Product landing page** <br>
 This project is based on a hypothetical product- Reverse headphones
-**working link** - https://amoeba25.github.io/FCC-Responsive-Web-Design/Product-landing-page/
+[working link](https://amoeba25.github.io/FCC-Responsive-Web-Design/Product-landing-page/)
 
-4. Technical documentation
+**4. Technical documentation** <br>
 This project is based on a beginner's guide to Github
-**working link** - https://amoeba25.github.io/FCC-Responsive-Web-Design/Technical-doc/
+[working link](https://amoeba25.github.io/FCC-Responsive-Web-Design/Technical-doc/)
 
-5. Personal portfolio
+**5. Personal portfolio** <br>
 Finally a personal portfolio I made showcasing all the projects
-**working link** - https://amoeba25.github.io/FCC-Responsive-Web-Design/Personal-portfolio/
+[working link](https://amoeba25.github.io/FCC-Responsive-Web-Design/Personal-portfolio/)
