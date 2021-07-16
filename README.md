@@ -3,10 +3,9 @@
 These are the list of projects done by me for the FreeCodeCamp's resoponsive web design certification. 
 
 ## Projects
----------------------------
 
 1. Tribute page
-A short tribute page dedicated to the late legend Vera Rubin 
+...A short tribute page dedicated to the late legend Vera Rubin 
 **working link** - https://amoeba25.github.io/FCC-Responsive-Web-Design/Tribute-page/
 
 2. Survey form
