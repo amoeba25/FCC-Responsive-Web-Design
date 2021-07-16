@@ -1,0 +1,96 @@
+
+ form{ 
+    
+    background-color: black;
+    position: relative;
+    left: 25%;
+    padding: 2em;
+    padding-right:1em ;
+    border-radius: 3px;
+    width: 690px;
+    overflow: auto;
+    opacity: 0.8;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+ } 
+
+.content {
+    position: relative;
+    overflow: auto;
+  }
+  
+
+.content:before{
+    content:"";
+    position: fixed;
+    left:-5%;
+    top:-5%;
+    right:0;
+    z-index: -1;
+
+
+    display: block;
+    background-image: url("https://content.fortune.com/wp-content/uploads/2020/04/GettyImages-464382604.jpg");
+    opacity: 0.9;
+    background-size: cover;
+    width: 110%;
+    height: 110%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+   
+}
+
+h1,#description{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+h1{
+    margin-bottom: 0px;
+    font-size: 4rem;
+}
+#description{
+    margin-top: 2px;
+}
+#name,#number,#email,#dropdown,button{
+    height: 2rem;
+    width: 50em;
+    margin-top:2px;
+    border-radius: 4px;
+}
+
+h2{
+    margin-bottom: 0px;
+    font-size:1.5em;
+
+}
+option,[type^="radio"]{
+    font-size:1.2rem ;
+    -webkit-transform: scale(1.5); 
+}
+.quiz{
+    font-size: 20px;
+}
+#love{
+    margin-bottom: 1.5px;
+}
+#submit{
+        
+    margin-top: 7px;;
+    display: block;
+    width: 95%;
+    padding: 0.75rem;
+    background: rgb(90, 212, 79);
+    color: black;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: inherit;
+    border-radius: 5px;
+    font-weight: bold;
+      
+}
