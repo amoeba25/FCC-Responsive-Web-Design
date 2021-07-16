@@ -1,0 +1,89 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parks and Rec quiz</title>
+</head>
+<body>
+    <main>
+    <div class="content">
+    <h1 id='title'> Parks and Rec quiz! </h1>
+    <p id="description"> A short quiz to test your loyalties</p>
+    <form id="survey-form">
+        <label for="name" id="name-label"><h2> Name: </h2></label>
+        <input id="name" type="text" placeholder=" Enter your name" required>
+        <label for="number" id="number-label"> <h2> Age: </h2> </label>
+        <input id="number" type="number" placeholder=" Enter your age" required  min="13" max="100">
+        
+        <label for="email" id="email-label" > <h2> Email id: </h2> </label>
+        <input id="email" type="email" placeholder=" Enter your email" required>
+        <h2>How many times have you watched the show? </h2>
+
+        <select id="dropdown" required>
+            <option value="" disabled hidden selected>Choose number of times </option>
+            <option value="one-time"> Once </option>
+            <option value="two-time"> Twice </option>
+            <option value="three-time"> Thrice </option>
+            <option value="three-plus-time"> 3+ times!? </option>
+        </select>
+        <div class="quiz">
+        <h3> 1.The series is set in the parks department of a fictional town called Pawnee. In what state is Pawnee in? </h3>
+        <label><input type="radio"name="town" value="Chicago"> Chicago </label> <br>
+        <label><input type="radio"name="town" value="Indiana"> Indiana </label><br>
+        <label><input type="radio"name="town" value="South Dakota"> South Dakota</label> <br>
+        <label><input type="radio"name="town" value="North Carolina"> North Carolina </label><br>
+        <h3> 2.What is the name of Annabel Porter's internet lifestyle magazine that promotes Ron's handmade chairs as a trend in 'Recall Vote? </h3>
+        <label><input type="radio"name="mag" value="Bloosh"> Bloosh </label><br>
+        <label><input type="radio"name="mag" value="Rent-a-swag"> Rent-a-swag </label><br>
+        <label><input type="radio"name="mag" value="Entertainment 720"> Entertainment 720 </label><br>
+        <label><input type="radio"name="mag" value="Gryzzyl"> Gryzzyl</label> <br>
+        <h3> 3. What is the name of the board game that Ben made in the final season? </h3>
+        <label><input type="radio"name="game" value="The Cones of Dunshire"> The Cones of Dunshire</label> <br>
+        <label><input type="radio"name="game" value="The Calzone"> The Calzone</label> <br>
+        <label><input type="radio"name="game" value="The Casinos of Tajakistan"> The Casinos of Tajakistan</label> <br>
+        <label><input type="radio"name="game" value="Settlers of Catin"> Settlers of Catin</label> <br>
+        <h3> 4.Who jointly created and acted as executive producer of Parks and Rec with Michael Schur, with whom he had previously worked with the American series of the The Office? </h3>
+        <label><input type="radio"name="producer" value="David Hyman"> David Hyman</label><br>
+        <label><input type="radio"name="producer" value="Doug Smith"> Doug Smith</label> <br>
+        <label><input type="radio"name="producer" value="Megan Arman"> Megan Arman</label> <br>
+        <label><input type="radio"name="producer" value="Greg Daniels"> Greg Daniels</label> <br>
+        <h3> Which character do you relate to? </h3>
+        <input type="checkbox" value="Ron" id="Ron">
+        <lable for="Ron"> Ron Swanson </lable> <br>
+        <input type="checkbox" value="Leslie" id="Leslie">
+        <lable for="Leslie"> Lesli Knope </lable><br>
+        <input type="checkbox" value="April" id="April">
+        <lable for="April"> April Ludgate </lable><br>
+        <input type="checkbox" value="Ben" id="Ben">
+        <lable for="Ben"> Ben Wyatt </lable><br>
+        <input type="checkbox" value="Ann" id="Ann">
+        <lable for="Ann"> Ann Perkins </lable><br>
+        <input type="checkbox" value="Donna" id="Donna">
+        <lable for="Donna"> Donna Meagle </lable><br>
+        <input type="checkbox" value="Tom" id="Tom">
+        <lable for="Tom"> Tom Havaford </lable><br>
+        <input type="checkbox" value="Chris" id="Chris">
+        <lable for="Chris"> Chris Treger </lable><br>
+    </div>
+        
+
+        <h3 id="love"> Why do you love this show? </h3>
+        <textarea id="finalthoughts" rows="10" cols="90" placeholder="Enter your thoughts here"> </textarea> <br>
+
+        <input type="submit" value="Submit" id="submit" />
+
+
+
+
+
+
+        </form>
+    </div>
+</main>
+</body>
+</html>
