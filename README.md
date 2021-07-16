@@ -4,8 +4,8 @@ These are the list of projects done by me for the FreeCodeCamp's resoponsive web
 
 ## Projects
 
-1. Tribute page
-...A short tribute page dedicated to the late legend Vera Rubin 
+1. Tribute page <br>
+A short tribute page dedicated to the late legend Vera Rubin 
 **working link** - https://amoeba25.github.io/FCC-Responsive-Web-Design/Tribute-page/
 
 2. Survey form
